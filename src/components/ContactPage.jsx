@@ -4,7 +4,7 @@ import "./ContactPage.css";
 class ContactPage extends React.Component {
   render() {
     return (
-      <div className="center">
+      <div className="centerContactPage">
         <h2>Contact us at:</h2>
         <p>seansoohyunkwon@gmail.com</p>
       </div>

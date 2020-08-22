@@ -5,7 +5,7 @@ class About extends React.Component {
   render() {
     return (
       <div className="center" id="aboutInfo">
-        Airsip is a social media platform where you can crowdsource
+        Airsip is a social media platform where you can crowdsource short
         video-answers to any questions you have
       </div>
     );

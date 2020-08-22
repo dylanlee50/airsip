@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./CustomNavbar.css";
 
 class CustomNavbar extends React.Component {
-  render() {  
+  render() {
     return (
       <Navbar default collapseOnSelect>
         <Navbar.Brand>
@@ -61,6 +61,17 @@ class CustomNavbar extends React.Component {
             >
               <Link to="/contactpage" style={{ color: "white" }}>
                 Contact Us
+              </Link>
+            </NavItem>
+            <NavItem
+              eventKey={4}
+              componentClass={Link}
+              href="/privacypolicy"
+              to="/privacypolicy"
+              style={{ marginRight: "15px" }}
+            >
+              <Link to="/privacypolicy" style={{ color: "white" }}>
+                Privacy Policy
               </Link>
             </NavItem>
           </Nav>

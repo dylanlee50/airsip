@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import ContactPage from "./components/ContactPage";
 import About from "./components/About";
 import CustomNavbar from "./components/CustomNavbar";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 
 class App extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class App extends React.Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/contactpage" component={ContactPage} />
+          <Route path="/privacypolicy" component={PrivacyPolicy} />
         </div>
       </Router>
     );
